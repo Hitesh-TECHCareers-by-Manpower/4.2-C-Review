@@ -6,6 +6,11 @@ namespace CsharpReview_4._2
     {
         static void Main(string[] args)
         {
+            string name;
+
+            name = Console.ReadLine();
+
+
             Console.WriteLine("Hello World!what a nice day today!");
         }
     }
