@@ -42,7 +42,7 @@ namespace CSharpReview_4Point2
             {
                 Console.WriteLine("Invalid Input: Please enter a name.");
             }
-            else if (name == "Admin")
+            else if (name.ToUpper() == "ADMIN")
             {
                 Console.WriteLine("Administrative access granted.");
             }
